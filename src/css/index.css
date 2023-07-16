@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 200px;
+    
+    margin: 200px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px rgb(123, 125, 148);
+    justify-content: space-around;
+    align-items: stretch;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+}
+button {
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.sub {
+    background-color: red;
+}
